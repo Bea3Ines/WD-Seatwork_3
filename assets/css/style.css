@@ -1,16 +1,123 @@
-*{
+body{
     margin: 0;
     padding: 0;
-    background-color: none;
-    font-family: 'Gill Sans', 
+    font-family: 'Gill Sans',
     'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: antiquewhite;
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
-#container {
-    color: coral;
-button {
-    border-radius: 10px;
-    justify-content: center;
-    
+.amethyst{
+    background-color: rgb(170, 203, 113);
+    justify-content: space-around;
+    display: flex;
 }
+.amethyst {
+    height: 100%;
+}
+
+nav ul li {
+    list-style: none;
+    cursor: pointer;
+    display: inline-block;
+    color: whitesmoke;
+}
+
+nav ul li {
+    text-decoration: none;
+    font-size: 25px;
+    padding: 0 10px;
+    text-transform: capitalize;
+}
+
+
+.pearl{
+    background-color: rgb(114, 136, 75);
+    justify-content: space-around;
+    display: flex;
+}
+.pearl {
+    height: 100%;
+}
+
+nav ul li {
+    list-style: none;
+    cursor: pointer;
+    display: inline-block;
+    color: whitesmoke;
+}
+
+nav ul li {
+    text-decoration: none;
+    font-size: 25px;
+    padding: 0 10px;
+    text-transform: capitalize;
+}
+
+.ruby{
+    background-color: rgb(81, 97, 54);
+    justify-content: space-around;
+    display: flex;
+}
+.ruby {
+    height: 100%;
+}
+
+nav ul li {
+    list-style: none;
+    cursor: pointer;
+    display: inline-block;
+    color: whitesmoke;
+}
+
+nav ul li {
+    text-decoration: none;
+    font-size: 25px;
+    padding: 0 10px;
+    text-transform: capitalize;
+}
+
+.sapphire{
+    background-color: rgb(113, 162, 23);
+    justify-content: space-around;
+    display: flex;
+}
+.sapphire {
+    height: 100%;
+}
+
+nav ul li {
+    list-style: none;
+    cursor: pointer;
+    display: inline-block;
+    color: whitesmoke;
+}
+
+nav ul li {
+    text-decoration: none;
+    font-size: 25px;
+    padding: 0 10px;
+    text-transform: capitalize;
+}
+
+.quartz{
+    background-color: rgb(39, 54, 14);
+    justify-content: space-around;
+    display: flex;
+}
+.quartz {
+    height: 100%;
+}
+
+nav ul li {
+    list-style: none;
+    cursor: pointer;
+    display: inline-block;
+    color: whitesmoke;
+}
+
+nav ul li {
+    text-decoration: none;
+    font-size: 25px;
+    padding: 0 10px;
+    text-transform: capitalize;
 }
