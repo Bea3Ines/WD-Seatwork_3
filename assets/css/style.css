@@ -1,8 +1,7 @@
-body{
+body {
     margin: 0;
     padding: 0;
-    font-family: 'Gill Sans',
-    'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
     box-sizing: border-box;
     overflow-x: hidden;
     margin-left: 10vh;
@@ -11,168 +10,16 @@ body{
     display: grid;
     row-gap: 50px;
 }
+.footer {
+    background-color: rgb(113, 150, 48);
+    padding: 20px;
 
-.amethyst{
-    background-color: rgb(142, 190, 60);
-    padding: 0 20px;
-    height: 10vh;
-    align-items: center;
-    justify-content: space-between;
-    display: flex;
-
-    .design1 ul li {
-        display: inline;
-    }
-    .why {
-        width: 10%;
-        height: 7vh;
-        object-fit: fill;
-    }
-    .design1 ul li a {
-        color: white;
-        margin-bottom: 7%;
-        text-decoration: none;
-        list-style: none;
-        padding: 13px;
-        font-size: 20px;
-        float: left;
-
-
-    }
-    }
-
-
-.pearl {
-    background-color: rgb(142, 190, 60);
-    height: 10vh;
-    padding: 0 20px;
-    align-items: center;
-    justify-content: space-between;
-    display: flex;
-
-    img {
-        width: 30px;
-        height: 30px;
-    }
-
-    .what {
-        width: 12%;
-        height: 8vh;
-        object-fit: fill;
-        margin-inline-start: -60%;
-    }
-
-    & >.design2 ul li{
-        justify-content: space-between;
-        align-items: center;
-        padding: 8px 0;
+    .facebook, .instagram, .x {
+        padding: 10px;
         display: flex;
-        display: inline;
-    }
-    & > .design2 ul li a{
-        text-decoration: none;
-        font-size: 17px;
-        padding: 13px;
-        list-style: none;
-        color: whitesmoke;
-    }
+         width: 1px;
+}  
+
 }
 
-.ruby {
-    background-color: rgb(142, 190, 60);
-    height: 18vh;
-    padding: 0 30px;
-    align-items: center;
-    justify-content: space-between;
-    display: flex;
 
-    img {
-        width: 30px;
-        height: 30px;
-    }
-    .who {
-        width: 9%;
-        height: 15vh;
-        object-fit: fill;
-    }
-
-    & >.design3 ul li{
-        display: inline;
-        padding: 20px;
-    }
-    & > .design3 ul li a {
-        text-decoration: none;
-        font-size: 17px;
-        list-style: none;
-        color: whitesmoke;
-    }
-}
-
-.sapphire {
-    background-color: rgb(142, 190, 60);
-    height: 10vh;
-    padding: 0 20px;
-    align-items: center;
-    justify-content: space-around;
-    display: flex;
-
-    .how {
-        width: 5%;
-        object-fit: fill;
-    }
-
-    & >.design4 ul li {
-        display: inline;
-        padding: 13px;
-    }
-
-    & > .design4 ul li a {
-        text-decoration: none;
-        font-size: 16px;
-        list-style: none;
-        color: whitesmoke;
-    }
-}
-
-.rose {
-    background-color: rgb(142, 190, 60);
-    height: 10vh;
-    padding: 0 20px;
-    align-items: center;
-    justify-content: space-between;
-    display: flex;
-
-    img {
-        width: 4%;
-        object-fit: fill;
-        margin-right: 1%;
-    }
-
-    .there {
-        width: 20%;
-        object-fit: fill;
-        margin-right: 20%;
-        margin-inline-end: 30%;
-    }
-
-    .where {
-        width: 30px;
-        object-fit: fill;
-    }
-
-    .when {
-        width: 4.5%;
-        object-fit: fill;
-        margin-left: 1%;
-    }
-    & >.design5 ul li {
-        display: inline;
-        margin: 0 30px;
-    }
-    & > .design5 ul li a{
-        text-decoration: none;
-        font-size: 15px;
-        list-style: none;
-        color: whitesmoke;
-    }
-}
