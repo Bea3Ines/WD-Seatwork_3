@@ -128,7 +128,7 @@ footer3 {
 .page3 a {
     text-decoration: none;
     padding: 20px 30px;
-    color: rgb(255, 199, 30);
+    color: white;
     font-size: 25px;
 }
 .outer-footer {
@@ -175,7 +175,7 @@ footer4 {
 .page4 a {
     text-decoration: none;
     padding: 0px 30px;
-    color: rgb(255, 199, 30);
+    color: white;
     font-size: 25px;
 }
 .outer-footer {

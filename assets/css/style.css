@@ -2,6 +2,9 @@ body {
     padding: 0;
     margin: 0;
 }
-p{
-    
+.start{
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: large;
 }
