@@ -1,10 +1,51 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+*{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    font-family: Silkscreen;
+    font-weight: 400;
+    /*outline: auto;*/
 }
+
 .start{
-    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.29), rgba(255, 255, 255, 0.2)), url('../img/space.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
     align-items: center;
+    color: rgb(250, 235, 215);
+}
+h1{
+    text-align: center;
+}
+p{
+    line-height: 5;
+}
+nav li{
+    padding: 0 55px;
+}
+nav ul {
+    line-height: 2;
+    list-style: none;
+    justify-content: space-around;
+    display: flex;
+}
+nav a{
+    text-decoration: none;
     color: white;
-    font-size: large;
+    font-size: 20px;
+    padding: 5px 50px;
+    border-radius: 40px 30px;
+    background-color: rgba(255, 255, 255, 0.188);
+}
+a:hover{
+    transition: ease-in, 0.5s;
+    background-color: palevioletred;
 }
