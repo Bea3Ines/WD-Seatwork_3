@@ -10,9 +10,13 @@ body{
     cursor: pointer;
     display: grid;
     row-gap: 50px;
+    outline: auto;
 
 }
-
+.h1{
+    align-items: center;
+    justify-content: center;
+}
 .amethyst{
     background-color: rgb(142, 190, 60);
     padding: 0 20px;
@@ -21,15 +25,15 @@ body{
     justify-content: space-between;
     display: flex;
     margin-top: 8%;
+
     .design1 ul li{
         display: inline;
     }
-
     .design1 ul li a {
         color: white;
         text-decoration: none;
         list-style: none;
-        padding: 13px;
+        padding: 12px;
         font-size: 15px;
         float: left;
 
