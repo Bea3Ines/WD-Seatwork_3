@@ -12,7 +12,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Learn to create headers and footers with different designs and structures
+  
 </div>
 
 <br />
@@ -41,9 +41,9 @@
         </li>
       </ol>
     </li>
-    <li>
+    <!--<li>
       <a href="#rule,-practices-and-principles">Rules, Practices and Principles</a>
-    </li>
+    </li>-->
     <li>
       <a href="#resources">Resources</a>
     </li>
@@ -58,13 +58,21 @@
 <!-- The following are just sample -->
 Description of the project in details.
 
-Guiding Question:
-- What is the project
+This project shows about how headers and footers are created using html and css, a step-by-step process.
+The purpose of this project is to learn how to navigate pages from a landing website and to practice coding skills to improve a web design.
+Headers, footers, design, and landing page are the key components for this project.
+
+<!--Guiding Question:
+- What is the project?
 - Whats the purpose
 - What are key components
-- What technology used and how it is used
+- What technology used and how it is used-->
 
 ### Key Components
+- 5 different headers
+- 5 different footers
+- Designs & Structures
+- Landing page
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 <!--- MultiPage Website/Single Page Website
@@ -115,4 +123,6 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Freepik | Background website, icons for web design. | freepik.com |
+| Headers,Footers and References | Tutorials in making web design. | www.w3schools.com|
+| Pinterest | Web design ideas. | pinterest.com |
