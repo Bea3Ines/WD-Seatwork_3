@@ -10,13 +10,11 @@ body{
     cursor: pointer;
     display: grid;
     row-gap: 50px;
-    outline: auto;
+    /*outline: auto;*/
+    background-color: dimgrey;
+}
 
-}
-.h1{
-    align-items: center;
-    justify-content: center;
-}
+
 .amethyst{
     background-color: rgb(142, 190, 60);
     padding: 0 20px;
@@ -24,22 +22,26 @@ body{
     align-items: center;
     justify-content: space-between;
     display: flex;
-    margin-top: 8%;
+    margin-top: 2%;
 
-    .design1 ul li{
+    img {
+        width: 100px;
+        height: 50px;
+    }
+
+    & > .design1 ul li{
         display: inline;
     }
-    .design1 ul li a {
+    & > .design1 ul li a {
         color: white;
         text-decoration: none;
         list-style: none;
         padding: 12px;
         font-size: 15px;
         float: left;
-
-
     }
     }
+
 .pearl {
         background-color: rgb(142, 190, 60);
         height: 10vh;
@@ -47,26 +49,22 @@ body{
         align-items: center;
         justify-content: space-between;
         display: flex;
-    
         img {
             width: 30px;
             height: 30px;
         }
-    
+
         .what {
             width: 12%;
             height: 8vh;
             object-fit: fill;
             margin-inline-start: -60%;
         }
-    
+
         & >.design2 ul li{
             justify-content: space-between;
             align-items: center;
             padding: 8px 0;
-        .facebook, .instagram, .x {
-            padding: 10px;
-            display: flex;
             display: inline;
         }
         & > .design2 ul li a{
@@ -77,6 +75,7 @@ body{
             color: whitesmoke;
         }
     }
+
 .ruby {
         background-color: rgb(142, 190, 60);
         height: 18vh;
@@ -84,9 +83,6 @@ body{
         align-items: center;
         justify-content: space-between;
         display: flex;
-             width: 1px;
-    }  
-    
         img {
             width: 30px;
             height: 30px;
@@ -96,7 +92,7 @@ body{
             height: 15vh;
             object-fit: fill;
         }
-    
+
         & >.design3 ul li{
             display: inline;
             padding: 20px;
@@ -115,17 +111,24 @@ body{
         align-items: center;
         justify-content: space-around;
         display: flex;
-    
-        .how {
-            width: 5%;
+
+        .when{
+            width: 3%;
+            height: 5vh;
             object-fit: fill;
         }
-    
+
+        .here {
+            width: 3%;
+            height: 5vh;
+            object-fit: fill;
+        }
+
         & >.design4 ul li {
             display: inline;
             padding: 13px;
         }
-    
+
         & > .design4 ul li a {
             text-decoration: none;
             font-size: 16px;
@@ -140,25 +143,25 @@ body{
         align-items: center;
         justify-content: space-between;
         display: flex;
-    
+
         img {
             width: 4%;
             object-fit: fill;
             margin-right: 1%;
         }
-    
+
         .there {
             width: 20%;
             object-fit: fill;
             margin-right: 20%;
             margin-inline-end: 30%;
         }
-    
+
         .where {
             width: 30px;
             object-fit: fill;
         }
-    
+
         .when {
             width: 4.5%;
             object-fit: fill;
